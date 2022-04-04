@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: mediumseagreen;
+
+}
+
+.wrapper {
+    background-color: #fff;
+    max-width: 90%;
+    margin: auto;
+    padding: 1rem;
+}
+
+header {
+    background-color: rgb(160, 185, 15);
+    padding: 1rem;
+}
+
+nav, .socials {
+    text-align:center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+footer {
+    text-align: center;
+    border-top: 1px #333 solid;
+}
+ 
+aside {
+    background-color: yellow;
+   padding-top: 1rem;
+}
+
+/* Tablet  */
+
+@media screen and  {min-width: 600px}
+    .wrapper {
+        width: 570px;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+    header { grid-area: header;}
+    nav
+    .socials
+    
+}
+
+.jfkdlsa{
+    align-self:flex-end
+}

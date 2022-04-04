@@ -1,0 +1,59 @@
+html {
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix ::after {
+    content: "";
+    display: block;
+    clear:both;
+}
+
+body {
+    margin: 0;
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+
+.wrapper {
+    margin: 1rem auto;
+    width: 90%;
+    background-color: #eee;
+    padding: 1rem;
+
+}
+
+h1 {
+    margin-top: 0;
+}
+/* progressive enhancement */
+@media screen and (min-width: 800px) {
+    html {
+        font-size: 16px;
+    }
+    body {
+        background-color: chartreuse;
+    }
+    .wrapper {
+        width: 800px;
+    }
+}
+
+@media screen and (min-width:1000px){
+
+    .wrapper {
+        width: 1000px;
+    }
+    main p {
+        float: left;
+        width: 33%;
+    }
+}
+
+
