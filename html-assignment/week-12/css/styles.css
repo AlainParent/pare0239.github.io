@@ -1,0 +1,26 @@
+body{
+    background-color: aqua;
+}
+
+h1{ 
+font-family: 'Rubik Wet Paint', cursive;
+}
+
+h2 {
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 40px;
+}
+
+.map iframe {
+    border: 0;
+    width: 600px;
+    height: 450px;
+    
+}
+
+.fa-jedi {
+    font-size: 44px;
+    color: rgb(244, 21, 107);
+
+}
+
