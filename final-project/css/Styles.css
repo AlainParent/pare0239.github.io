@@ -1,0 +1,26 @@
+.nav-item{
+    text-align: center;
+    padding: 20px;
+    
+}
+img{
+    padding: 20px;
+}
+
+
+header .wrapper {
+    background-color: black;
+    
+}
+
+.welcome .wrapper{
+    background-color: rgba(0,0,0,0.8);
+   
+}
+.welcome h1{
+    text-align:center;
+
+    
+}
+
+
